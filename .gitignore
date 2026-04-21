@@ -2,10 +2,10 @@ node_modules/
 .DS_Store
 .env
 
-#ignnore anything inside the decks folder
+# Ignore everything inside the decks folder
 decks/*
-#but not the decks folder itself
-!decks/
+# Keep only a placeholder so the folder exists in git
+!decks/.gitkeep
 # Logs
 logs
 *.log
