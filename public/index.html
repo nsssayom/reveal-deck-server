@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decks</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Decks</h1>
+      <p class="hint">
+        <strong>Presentation view</strong> is the screen the audience looks at
+        — it follows whatever the speaker does. <strong>Speaker view</strong>
+        drives the deck and opens reveal's notes window.
+      </p>
+    </header>
+    <ul id="decks" class="deck-list" aria-busy="true"></ul>
+    <p id="empty" hidden>
+      No decks found. Drop a folder containing <code>index.html</code> into
+      <code>decks/</code> and refresh.
+    </p>
+    <footer id="footer"></footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
